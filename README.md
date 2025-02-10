@@ -30,28 +30,15 @@ Download the dataset from https://www.kaggle.com/datasets/harshwalia/online-stor
 - **Customer Analysis:** Identified high-value customers and repeat vs. one-time buyers
 - **Sales by Country:** Bar chart representation of revenue contribution by country
 
-### 3️⃣ Market Basket Analysis
-- Used **Apriori Algorithm** to find frequently bought-together items
-- Created a heatmap of product associations
-
-### 4️⃣ Time-Based Insights
+### 3️⃣ Time-Based Insights
 - **Sales by Hour of Day:** Identified peak sales hours using a bar chart
 - **Seasonality Detection:** Trend analysis based on invoice dates
 
-### 5️⃣ Anomaly Detection
-- **Outlier Detection in Revenue:** Box plot used to detect unusually high transactions
-
-### 6️⃣ Geographic Analysis
-- **Sales Distribution on Map:** Visualized revenue contributions per country using Folium
 
 ## 📈 Visualizations
 The project includes:
 ✅ Line charts for sales trends
 ✅ Bar plots for product & customer analysis
-✅ Pie charts for customer segmentation
-✅ Heatmaps for missing values and frequent itemsets
-✅ Box plots for anomaly detection
-✅ Interactive maps for geographic analysis
 
 ## 🚀 How to Run the Project
 1. Clone this repository:
@@ -70,9 +57,8 @@ The project includes:
 4. Run all cells to execute the analysis.
 
 ## 🛠 Technologies Used
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, mlxtend)
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
 - **Jupyter Notebook** for interactive analysis
-- **Folium & GeoPandas** for geographic visualization
 
 ## 📌 Future Improvements
 - Add real-time data streaming support
@@ -81,7 +67,7 @@ The project includes:
 
 ---
 📌 **Author:** Vibhum Sharma  
-📧 Contact: [Your Email or GitHub Profile]
+📧 Contact: vibhum10sharma@gmail.com
 
 
 
