@@ -1,4 +1,85 @@
-# Internship
-You can view the RetailStoreSalesAnalysis.ipynb file for the results.
+# Retail Store Sales Analysis
+
+## 📌 Project Overview
+This project performs an in-depth analysis of retail store sales data using Python. It includes exploratory data analysis (EDA), customer behavior insights, time-series trends, and visualizations to uncover business insights. The analysis is done in a Jupyter Notebook (`RetailStoreSalesAnalysis.ipynb`).
+
+## 📂 Dataset Description
+The dataset contains transactional data from a retail store with the following key fields:
+- `InvoiceNo`: Unique identifier for transactions
+- `StockCode`: Product identifier
+- `Description`: Product name
+- `Quantity`: Number of units sold
+- `InvoiceDate`: Timestamp of the transaction
+- `UnitPrice`: Price per unit
+- `Customer ID`: Unique customer identifier
+- `Country`: Country where the purchase was made
+- `TotalRevenue`: Derived field (`Quantity * UnitPrice`)
+
+## 📊 Performed Analyses
+### 1️⃣ Data Preprocessing
+- Handled missing values
+- Removed duplicates
+- Converted `InvoiceDate` to datetime
+- Added calculated fields (`TotalRevenue`, `YearMonth`, `Hour`)
+
+### 2️⃣ Exploratory Data Analysis (EDA)
+- **Sales Trends Over Time:** Monthly sales trends visualized with a line chart
+- **Top-Selling Products:** Best-selling products by quantity and revenue
+- **Customer Analysis:** Identified high-value customers and repeat vs. one-time buyers
+- **Sales by Country:** Bar chart representation of revenue contribution by country
+
+### 3️⃣ Market Basket Analysis
+- Used **Apriori Algorithm** to find frequently bought-together items
+- Created a heatmap of product associations
+
+### 4️⃣ Time-Based Insights
+- **Sales by Hour of Day:** Identified peak sales hours using a bar chart
+- **Seasonality Detection:** Trend analysis based on invoice dates
+
+### 5️⃣ Anomaly Detection
+- **Outlier Detection in Revenue:** Box plot used to detect unusually high transactions
+
+### 6️⃣ Geographic Analysis
+- **Sales Distribution on Map:** Visualized revenue contributions per country using Folium
+
+## 📈 Visualizations
+The project includes:
+✅ Line charts for sales trends
+✅ Bar plots for product & customer analysis
+✅ Pie charts for customer segmentation
+✅ Heatmaps for missing values and frequent itemsets
+✅ Box plots for anomaly detection
+✅ Interactive maps for geographic analysis
+
+## 🚀 How to Run the Project
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/yourusername/RetailStoreSalesAnalysis.git
+   cd RetailStoreSalesAnalysis
+   ```
+2. Install required dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Open the Jupyter Notebook:
+   ```sh
+   jupyter notebook RetailStoreSalesAnalysis.ipynb
+   ```
+4. Run all cells to execute the analysis.
+
+## 🛠 Technologies Used
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, mlxtend)
+- **Jupyter Notebook** for interactive analysis
+- **Folium & GeoPandas** for geographic visualization
+
+## 📌 Future Improvements
+- Add real-time data streaming support
+- Implement predictive sales forecasting using machine learning
+- Enhance visualization with interactive dashboards (Plotly, Dash, Power BI)
+
+---
+📌 **Author:** Vibhum Sharma  
+📧 Contact: [Your Email or GitHub Profile]
+
 
 Download the dataset from https://www.kaggle.com/datasets/harshwalia/online-store-data
