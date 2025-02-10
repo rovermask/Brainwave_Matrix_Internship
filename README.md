@@ -14,6 +14,7 @@ The dataset contains transactional data from a retail store with the following k
 - `Customer ID`: Unique customer identifier
 - `Country`: Country where the purchase was made
 - `TotalRevenue`: Derived field (`Quantity * UnitPrice`)
+
 Download the dataset from https://www.kaggle.com/datasets/harshwalia/online-store-data
 
 ## 📊 Performed Analyses
