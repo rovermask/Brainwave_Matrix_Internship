@@ -37,6 +37,7 @@ Download the dataset from https://www.kaggle.com/datasets/harshwalia/online-stor
 
 ## 📈 Visualizations
 The project includes:
+
 ✅ Line charts for sales trends
 
 ✅ Bar plots for product & customer analysis
