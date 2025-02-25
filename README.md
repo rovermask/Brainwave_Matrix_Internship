@@ -1,4 +1,4 @@
-# Retail Store Sales Analysis
+# Task 1 - Retail Store Sales Analysis
 
 ## 📌 Project Overview
 This project performs an in-depth analysis of retail store sales data using Python. It includes exploratory data analysis (EDA), customer behavior insights, time-series trends, and visualizations to uncover business insights. The analysis is done in a Jupyter Notebook (`RetailStoreSalesAnalysis.ipynb`).
@@ -71,5 +71,43 @@ The project includes:
 📌 **Author:** Vibhum Sharma  
 📧 Contact: vibhum10sharma@gmail.com
 
+### Task 2 - Twitter Sentiment Analysis
+🚀 *Analyzing public sentiment on social media using NLP techniques*  
 
+#### Overview
+This project, completed during my **Data Science and Analysis internship**, focuses on **Twitter Sentiment Analysis** to understand public opinion on various topics, products, or events. The analysis involves:  
+- **Data Preprocessing**: Cleaning and tokenizing text data  
+- **Sentiment Extraction**: Classifying tweets as positive, negative, or neutral  
+- **Visualization**: Tracking sentiment trends over time  
+
+#### **Tech Stack**  
+🔹 Python  
+🔹 NLP (Natural Language Processing)  
+🔹 Pandas, NumPy  
+🔹 Matplotlib, Seaborn  
+🔹 Scikit-learn  
+
+#### **Features**  
+✅ Preprocessing of raw tweets (removing stopwords, lemmatization, etc.)  
+✅ Sentiment classification using NLP techniques  
+✅ Visualization of sentiment trends over time  
+
+#### **Usage**  
+Clone the repository:  
+```bash
+git clone https://github.com/yourusername/Twitter-Sentiment-Analysis.git
+```
+Run the Jupyter Notebook to explore the analysis and insights.  
+
+#### **Results & Insights**  
+- Extracted sentiment scores from tweets  
+- Identified trends in public sentiment  
+- Gained insights into public reactions towards different topics  
+
+### 📌 **Check out the repository for detailed implementation!**  
+🔗 [GitHub Repository](https://github.com/yourusername/Twitter-Sentiment-Analysis)  
+
+---
+
+Let me know if you'd like any modifications! 🚀
 
