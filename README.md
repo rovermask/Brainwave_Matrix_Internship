@@ -92,22 +92,13 @@ This project, completed during my **Data Science and Analysis internship**, focu
 ✅ Sentiment classification using NLP techniques  
 ✅ Visualization of sentiment trends over time  
 
-#### **Usage**  
-Clone the repository:  
-```bash
-git clone https://github.com/yourusername/Twitter-Sentiment-Analysis.git
-```
 Run the Jupyter Notebook to explore the analysis and insights.  
 
 #### **Results & Insights**  
 - Extracted sentiment scores from tweets  
 - Identified trends in public sentiment  
-- Gained insights into public reactions towards different topics  
+- Gained insights into public reactions towards different topics
+- Found whether the tweet is positive or negative
 
-### 📌 **Check out the repository for detailed implementation!**  
-🔗 [GitHub Repository](https://github.com/yourusername/Twitter-Sentiment-Analysis)  
-
----
-
-Let me know if you'd like any modifications! 🚀
-
+📌 **Author:** Vibhum Sharma  
+📧 Contact: vibhum10sharma@gmail.com
