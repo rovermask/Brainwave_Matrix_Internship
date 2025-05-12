@@ -71,7 +71,7 @@ The project includes:
 📌 **Author:** Vibhum Sharma  
 📧 Contact: vibhum10sharma@gmail.com
 
-### Task 2 - Twitter Sentiment Analysis
+# Task 2 - Twitter Sentiment Analysis
 🚀 *Analyzing public sentiment on social media using NLP techniques*  
 
 #### Overview
